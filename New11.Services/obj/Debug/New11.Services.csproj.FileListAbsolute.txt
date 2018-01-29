@@ -1,0 +1,15 @@
+C:\DotNetProjects\New11.Web\New11.Services\bin\Debug\New11.Services.dll
+C:\DotNetProjects\New11.Web\New11.Services\bin\Debug\New11.Services.pdb
+C:\DotNetProjects\New11.Web\New11.Services\obj\Debug\New11.Services.csprojResolveAssemblyReference.cache
+C:\DotNetProjects\New11.Web\New11.Services\obj\Debug\New11.Services.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\New11.Web\New11.Services\obj\Debug\New11.Services.dll
+C:\DotNetProjects\New11.Web\New11.Services\obj\Debug\New11.Services.pdb
+C:\DotNetProjects\New11.Web\New11.Services\bin\Debug\New11.Services.dll.config
+C:\DotNetProjects\New11.Web\New11.Services\bin\Debug\EntityFramework.dll
+C:\DotNetProjects\New11.Web\New11.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\DotNetProjects\New11.Web\New11.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\DotNetProjects\New11.Web\New11.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\DotNetProjects\New11.Web\New11.Services\bin\Debug\EntityFramework.xml
+C:\DotNetProjects\New11.Web\New11.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\DotNetProjects\New11.Web\New11.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\DotNetProjects\New11.Web\New11.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
