@@ -10,14 +10,12 @@ namespace New11.Models
     public class NoteListItem
     {
         public int NoteId { get; set; }
-        public int Title { get; set; }
+        public string Title { get; set; }
 
         [Display(Name = "Created")]
         public DateTimeOffset CreatedUtc { get; set; }
 
-        public override string ToString()
-        {
-            return base.ToString();
-        }
+        public override string ToString() => Title;
+     
     }
 }
