@@ -13,3 +13,9 @@ C:\DotNetProjects\New11.Web\New11.Services\bin\Debug\EntityFramework.xml
 C:\DotNetProjects\New11.Web\New11.Services\bin\Debug\EntityFramework.SqlServer.xml
 C:\DotNetProjects\New11.Web\New11.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\DotNetProjects\New11.Web\New11.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\DotNetProjects\New11.Web\New11.Services\bin\Debug\New11.Data.dll
+C:\DotNetProjects\New11.Web\New11.Services\bin\Debug\New11.Models.dll
+C:\DotNetProjects\New11.Web\New11.Services\bin\Debug\New11.Data.pdb
+C:\DotNetProjects\New11.Web\New11.Services\bin\Debug\New11.Data.dll.config
+C:\DotNetProjects\New11.Web\New11.Services\bin\Debug\New11.Models.pdb
+C:\DotNetProjects\New11.Web\New11.Services\bin\Debug\New11.Models.dll.config

@@ -10,6 +10,7 @@ namespace New11.Models
     public class NoteCreate
     {
         [Required]
+
         public string Title { get; set; }
         public string Content { get; set; }
 

@@ -67,16 +67,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\New11.Models\New11.Models.csproj">
-      <Project>{75ae4ee1-321a-4294-b280-b00c9af7520a}</Project>
-      <Name>New11.Models</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\New11.Services\New11.Services.csproj">
-      <Project>{4584b777-765f-40b2-b747-cf76ec81bd2a}</Project>
-      <Name>New11.Services</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Migrations\201801291920396_Notes.resx">
       <DependentUpon>201801291920396_Notes.cs</DependentUpon>
     </EmbeddedResource>

@@ -53,11 +53,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NoteService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\New11.Data\New11.Data.csproj">
+      <Project>{9f86067a-9982-4982-9277-4c708eec4156}</Project>
+      <Name>New11.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\New11.Models\New11.Models.csproj">
+      <Project>{75ae4ee1-321a-4294-b280-b00c9af7520a}</Project>
+      <Name>New11.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

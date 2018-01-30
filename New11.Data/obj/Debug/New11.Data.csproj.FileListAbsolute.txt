@@ -13,11 +13,5 @@ C:\DotNetProjects\New11.Web\New11.Data\bin\Debug\Microsoft.AspNet.Identity.Core.
 C:\DotNetProjects\New11.Web\New11.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\DotNetProjects\New11.Web\New11.Data\obj\Debug\New11.Data.dll
 C:\DotNetProjects\New11.Web\New11.Data\obj\Debug\New11.Data.pdb
-C:\DotNetProjects\New11.Web\New11.Data\bin\Debug\New11.Models.dll
-C:\DotNetProjects\New11.Web\New11.Data\bin\Debug\New11.Services.dll
-C:\DotNetProjects\New11.Web\New11.Data\bin\Debug\New11.Models.pdb
-C:\DotNetProjects\New11.Web\New11.Data\bin\Debug\New11.Models.dll.config
-C:\DotNetProjects\New11.Web\New11.Data\bin\Debug\New11.Services.pdb
-C:\DotNetProjects\New11.Web\New11.Data\bin\Debug\New11.Services.dll.config
 C:\DotNetProjects\New11.Web\New11.Data\obj\Debug\New11.Data.Migrations.Notes.resources
 C:\DotNetProjects\New11.Web\New11.Data\obj\Debug\New11.Data.csproj.GenerateResource.Cache
