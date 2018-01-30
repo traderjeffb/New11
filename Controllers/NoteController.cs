@@ -54,5 +54,17 @@ namespace New11.Web.Controllers
             return service;
         }
 
+        public ActionResult Details(int id)
+        {
+
+            var service = CreateNoteService();
+            var model = service.GetNotesById(id);
+
+            return View(model);
+        }
+
+  
+
+
     }
 }
