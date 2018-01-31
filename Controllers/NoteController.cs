@@ -33,13 +33,13 @@ namespace New11.Web.Controllers
         public ActionResult Create(NoteCreate model)
         {
             if (!ModelState.IsValid) return View(model);
-        
+
             var service = CreateNoteService();
 
             if (service.CreateNote(model))
             {
                 TempData["SaveResult"] = "Your Note was Created";
-            return RedirectToAction("Index");
+                return RedirectToAction("Index");
             }
 
             ModelState.AddModelError("", "Your Note could not be created.");
@@ -63,8 +63,46 @@ namespace New11.Web.Controllers
             return View(model);
         }
 
-  
+        public ActionResult Edit(int id)
+        {
+            var service = CreateNoteService();
+            var detail = service.GetNotesById(id);
+            var model =
+                new NoteEdit
+                {
+                    NoteId = detail.NoteId,
+                    Title = detail.Title,
+                    Content = detail.Content
+                };
 
+            return View(model);
+        }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult UpdateNote(int id, NoteEdit model)
+        {
+
+            if (!ModelState.IsValid) return View(model);
+
+            if (model.NoteId != id)
+            {
+             ModelState.AddModelError("", "ID mismatch");
+                return View(model);
+            }
+
+            var service = CreateNoteService();
+            
+
+             if (service.UpdateNote(model))
+            {
+            TempData["SaveResult"] = "Your Note was updated";
+                return RedirectToAction("Index");
+            }
+            
+
+            ModelState.AddModelError("", "Your note could not be updated.");
+            return View(model);
+        }
     }
 }
