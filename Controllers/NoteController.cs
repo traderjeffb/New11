@@ -104,5 +104,14 @@ namespace New11.Web.Controllers
             ModelState.AddModelError("", "Your note could not be updated.");
             return View(model);
         }
+
+        public ActionResult Delete(int id)
+        {
+
+            var service = CreateNoteService();
+            var model = service.GetNotesById(id);
+
+            return View(model);
+        }
     }
 }
