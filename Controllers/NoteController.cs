@@ -113,5 +113,14 @@ namespace New11.Web.Controllers
 
             return View(model);
         }
+
+        [HttpPost]
+        [ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+
+        Public ActionResult DeletePost(int id)
+        {
+            RedirectToAction("Indax");
+        }
     }
 }
